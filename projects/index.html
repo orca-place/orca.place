@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/reset.css">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="projects.css">
+  <title>Orca</title>
+</head>
+
+<body>
+  <h1>
+    <a href="/">Orca</a>
+  </h1>
+
+  <main>
+    <h2>Projects</h2>
+    <ul id="projects"></ul>
+  </main>
+
+  <script src="/scripts/redirect.js"></script>
+
+  <template id="project-item">
+    <li style="--background: url('{image}')">
+      <a href="{url}">
+        <h2>{title}</h2>
+        <p>{subtitle}</p>
+      </a>
+    </li>
+  </template>
+
+  <script>
+    "use strict";
+
+    const listContainer = document.getElementById('projects');
+    const projectItemTemplate = document.getElementById('project-item').innerHTML;
+
+    fetch('projects.json').then(res => res.json()).then(data => {
+      data.projects.forEach(project => {
+        const projectItem = projectItemTemplate
+          .replace('{image}', project.image)
+          .replace('{url}', project.url)
+          .replace('{title}', project.title)
+          .replace('{subtitle}', project.subtitle);
+
+        listContainer.innerHTML += projectItem;
+      });
+    });
+
+  </script>
+</body>
+
+</html>

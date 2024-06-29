@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:podcast="https://podcastindex.org/namespace/1.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+
+  <channel>
+    <atom:link href="https://orca.place/projects/the-world-was-ours/en/feed" rel="self"
+      type="application/rss+xml" />
+    <title>We Felt the World Was Ours</title>
+    <description>...</description>
+    <link>https://orca.place/projects/the-world-was-ours/en/</link>
+    <language>en-US</language>
+    <itunes:category text="History" />
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:image href="https://orca.place/projects/the-world-was-ours/assets/cover.png" />
+    <podcast:guid>fe8a385e-55e5-5cb5-a942-9c5d5c5c4aac</podcast:guid>
+    <itunes:author>Wizza and In'am Hanim</itunes:author>
+
+    <item>
+      <title>Part 1: blah blah blah</title>
+      <enclosure length="76610080" type="audio/mpeg"
+        url="https://orca.place/projects/the-world-was-ours/mp3/en-1.mp3" />
+      <description><![CDATA[<a href="https://orca.place">Sample episode <b>description.</b></a>]]></description>
+      <guid>254a487c-a3aa-5242-b8d9-24abec64752a</guid>
+      <itunes:episode>1</itunes:episode>
+      <link>https://orca.place/projects/the-world-was-ours/en/#1</link>
+    </item>
+
+    <item>
+      <title>Part 2: blah blah blah</title>
+      <enclosure length="59599350" type="audio/mpeg"
+        url="https://orca.place/projects/the-world-was-ours/mp3/en-2.mp3" />
+      <description><![CDATA[<a href="https://orca.place">Sample episode <i>description.</i></a>]]></description>
+      <guid>222ac438-e119-5380-88e3-96b7a4680ab5</guid>
+      <itunes:episode>2</itunes:episode>
+      <link>https://orca.place/projects/the-world-was-ours/en/#2</link>
+    </item>
+  </channel>
+
+</rss>
