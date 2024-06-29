@@ -8,7 +8,16 @@
     <atom:link href="https://orca.place/projects/the-world-was-ours/en/feed" rel="self"
       type="application/rss+xml" />
     <title>We Felt the World Was Ours</title>
-    <description>...</description>
+    <description>
+      In this podcast by Wizza and In’am Hanim, we explore the impacts that the 2011 revolution
+      in Egypt had and continues to have on the children and teenagers of that time. We, Wizza and
+      In’am are fictional characters who we were teenagers in the time of the revolution. We
+      produced this series for anyone who went through similar revolutionary moments or is in search
+      of them. As we interviewed seven other people from our generation for this podcast, and learnt
+      about their feelings, it helped us connect with our own feelings regarding the revolution. We
+      gained a better understanding of ourselves and the impacts the revolution has on us. We hope
+      you find things to connect to as well.
+    </description>
     <link>https://orca.place/projects/the-world-was-ours/en/</link>
     <language>en-US</language>
     <itunes:category text="History" />
@@ -18,20 +27,30 @@
     <itunes:author>Wizza and In'am Hanim</itunes:author>
 
     <item>
-      <title>Part 1: blah blah blah</title>
+      <title>A Revolution in the Making</title>
       <enclosure length="76610080" type="audio/mpeg"
         url="https://orca.place/projects/the-world-was-ours/mp3/en-1.mp3" />
-      <description><![CDATA[<a href="https://orca.place">Sample episode <b>description.</b></a>]]></description>
+      <description>
+        In the first part we will explore the narrative of the revolution and how young people
+        remember it despite the deliberate attempt to erase the history of this time from the
+        archive. We will share how our guests perceived the tidal wave of information at the time.
+        Their feelings will be our guide.
+      </description>
       <guid>254a487c-a3aa-5242-b8d9-24abec64752a</guid>
       <itunes:episode>1</itunes:episode>
       <link>https://orca.place/projects/the-world-was-ours/en/#1</link>
     </item>
 
     <item>
-      <title>Part 2: blah blah blah</title>
+      <title>Mushrooms</title>
       <enclosure length="59599350" type="audio/mpeg"
         url="https://orca.place/projects/the-world-was-ours/mp3/en-2.mp3" />
-      <description><![CDATA[<a href="https://orca.place">Sample episode <i>description.</i></a>]]></description>
+      <description>
+        In the second part will revisit the climactic moment of the revolution and the confidence
+        gained by young people. We will discuss how the revolution enforces the current politics of
+        our guests. Their generation is the one shaping the conversations of today. We will close by
+        looking ahead to the future.
+      </description>
       <guid>222ac438-e119-5380-88e3-96b7a4680ab5</guid>
       <itunes:episode>2</itunes:episode>
       <link>https://orca.place/projects/the-world-was-ours/en/#2</link>
