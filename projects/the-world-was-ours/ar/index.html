@@ -62,8 +62,7 @@
       `,
     });
 
-    load('/podcast/feed-test')
-      //load('/podcast/feed')
+    load('feed')
       .then(items => {
         items.map(item => ({
           title: item.getElementsByTagName('title')[0].textContent,
