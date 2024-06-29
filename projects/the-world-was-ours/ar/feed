@@ -10,15 +10,49 @@
       type="application/rss+xml"
       href="https://orca.place/projects/the-world-was-ours/ar/feed"
     />
-    <title>We Felt the World Was Ours</title>
-    <description>...</description>
+    <title>حسينا ان العالم بتاعنا</title>
+    <description>في البرنامج الإذاعي ده احنا بنبص على أثر ثورة 2011 على الناس الي كانو أطفال أو
+      مراهقين وقتها. احنا بنوجه الحلقات دي لأي حد مر بلحظة ثورية مشابهه. احنا شخصيًا كوزة و إنعام
+      -شخصيتين خياليتين كانوا بردوا مراهقات وقت الثورة- اتعلمنا حاجات كتيرة عن نفسنا من المقابلات
+      الي عملناها مع ضيوفنا، اما حكولنا مثلا عن مشاعرهم المتعلقة بالثورة ساعدونا نتواصل مع مشاعر
+      مشابهه شايلنها معانا. بنتمنى أنكو كمان تلاقوا حاجات تتواصلوا معاها ف البودكاست و تساعدكو
+      تفهموا نفسكوا بردو.</description>
     <link>https://orca.place/projects/the-world-was-ours/ar/</link>
     <language>ar-EG</language>
     <itunes:category text="History" />
     <itunes:explicit>false</itunes:explicit>
     <itunes:image href="https://orca.place/projects/the-world-was-ours/static/cover.png" />
     <podcast:guid>e17dc33b-2bb5-5b0a-a5b9-1a103614ede4</podcast:guid>
-    <itunes:author></itunes:author>
+    <itunes:author>Wizza and In'am Hanim</itunes:author>
+
+    <item>
+      <title>الحلقة الأولى: ثورة قيد الصنع</title>
+      <enclosure length="76610080" type="audio/mpeg"
+        url="https://orca.place/projects/the-world-was-ours/mp3/ar-1.mp3" />
+      <description>
+        ف الحلقة الأولى هنبص على السرديات المختلفة للثورة و ازاي شباب انهارده الي كانو صغيرين وقتها
+        بيفتكروها برغم التحديات الي بتواجه الأرشيف و محاولات مسح التاريخ و التأثير على الذاكرة.
+        هنتكلم عن ازاي ضيوفنا كانو بيتعاملو مع شلالات المعلومات الي جايلهم من كل حتة في وقت الثورة و
+        هنخلي مشاعرهم تكون دليلنا في الحلقة على الي حصل.
+      </description>
+      <guid>7415964c-17aa-5530-9b26-1a4be0f639cf</guid>
+      <itunes:episode>1</itunes:episode>
+      <link>https://orca.place/projects/the-world-was-ours/ar/#1</link>
+    </item>
+
+    <item>
+      <title>الحلقة الثانية: مشروم</title>
+      <enclosure length="59599350" type="audio/mpeg"
+        url="https://orca.place/projects/the-world-was-ours/mp3/en-2.mp3" />
+      <description>
+        في الحلقة التانية هنتكلم عن ذروة الثورة و الثقة الي اكتسبها المراهقين و الأطفال وقتها.
+        هنتكلم عن ازاي الحدث ده مأثر على سياستهم دلوقتي، لأن جيلهم من الصناع الأساسين للعمل السياسي
+        حاليًأ و هننهي باننا نتكلم عن نظرتهم للمستقبل.
+      </description>
+      <guid>721ea294-a7be-5cf8-8b59-7edec6d4d377</guid>
+      <itunes:episode>2</itunes:episode>
+      <link>https://orca.place/projects/the-world-was-ours/ar/#2</link>
+    </item>
   </channel>
 
 </rss>
